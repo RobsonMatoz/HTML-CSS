@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+h1{       /*Box-Level*/               
+    background-color: slategray;
+
+     /* add tamanhos de bordas e cores  */  
+    border: 200px, solid, darkslategray;
+
+   /* add tamanhos de paddings */  
+    padding: 20px, auto, 20px, auto;/*Feito um shothand com as conf de padding acima deixei centralizado aos lados*/
+
+    margin: 20px;  /*Aqui coloquei só no ShotHand 20px que ai ele determina todas as medidas como 20 px*/
+
+    /*Linha atrás da margem*/
+    /*A linha (dashed) apontilhada  dentro da margem*/
+    outline: 5px, dashed, blue;
+}
+
+   /* (margin: auto;)  Para deixar a caixa centralizada no site */  
+a{   /* Inline-Level*/
+    display: block; /*Usando esse Display eu posso transforma um INLINE em BOX*/
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(132, 68, 196);
+}

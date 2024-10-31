@@ -1,0 +1,31 @@
+@charset "UTF-8";
+            /* (Em HTML é ID  =  Em CSS é #) "Só pode um elemento"
+                (Em HTML é Class  =  Em CSS é .) "Pode varios elementos"
+            */
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+h1{
+    color: blueviolet;
+}
+h1#principal{
+    background-color: brown;
+    text-align: center;
+    color: black;
+}
+.basico{
+    color: rgb(18, 216, 18);
+}
+.intermediario{
+    text-align: center;
+}
+.avancado{
+    color: blue;
+ }
+ .destaque{
+    background-color: blue;
+    font-size: 32px;
+ }
+    

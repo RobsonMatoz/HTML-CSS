@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+body {
+    background-color:rgb(84, 193, 226); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;  
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{      /* Coinfiguração para a tela do site não ficar com espaço rolando para os lados*/
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: #84E1AD;
+    width: 950px;
+    padding: 20px;
+    margin: auto;
+     }
+
+
+h1.titulo:hover{      /*Quando passar o cursor em cima do titulo vai mudar de cor para roxo*/
+    color: blueviolet;
+}
+
+h1{
+    padding: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font: italic, bolder, 48px, arial   ;   
+}
+picture img.pequena{
+   max-width: 500px;
+    display: block;
+    margin: auto;
+}
+main{
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.502);
+    background-color: white;   /*Criado o MAIN para fazer confg apenas no que tem dentro dele e outras no body*/
+    padding: 20px;
+}
+main img{
+    width: 100%;
+}
+h1, h2, h3{
+    background-color: white;
+}
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+                    
+.media:hover .foto{
+    display: none;         /* Aqui faz sumir a foto quando eu passar o mouse em cima dela*/
+}
+.media:hover .foto{
+    display: block;       /*Aqui faz aparecer a foto de volta, e não sumir mais quando passar o mouse*/
+}
+
+h1{
+    color: black;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: black;
+}
+p{
+    text-align: justify;
+}

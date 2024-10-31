@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(184, 236, 218);
+}
+a{
+    color: rgb(223, 17, 17);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{             /* Todo link que for visitado ficara com a cor roxa */
+    color: rgb(107, 13, 195);
+}
+a:hover{
+    color: black;
+    text-decoration: underline; /* Sempre que passar o mouse no link ele mostra a linha underline de baix do link*/
+}
+a:active{
+    color: yellow;    /* Ao passar o mouse no link ele muda a cor das letras para amarelo */
+}
+a::after{
+    content: ' [LINK]';    /* no final do link ele aparece escrito [LINK] para identificar q é um link */
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(191, 111, 111);
+}
+.especial::after{
+    content: '»';
+}   /* Criei uma CLASS para o whats After ele mostra essa seta no final do link e Before ele mostra a seta antes */
+.especial::before{
+    content: '«';
+}
+a.especial{         /* muda a cor de fundo do link apenas no whats que criei a Class 'especial' */
+    background-color: rgb(157, 101, 210);
+}
