@@ -68,3 +68,6 @@ main img:hover{
     background-image: url(imagens/onix.jfif);
     
 }
+body{
+    background-image: linear-gradient(to right, var(--cor5), var(--cor3))
+ }
