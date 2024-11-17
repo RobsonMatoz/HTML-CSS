@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passero+One&family=Protest+Guerrilla&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte: "Sriracha", serif;
+    --fonte2: "Noto Serif", serif;
+    --fonte3: Arial, Helvetica, sans-serif;
+
+    --cor1: 
+    --cor2: 
+    --cor3:
+}
+
+
+
+
+
+
