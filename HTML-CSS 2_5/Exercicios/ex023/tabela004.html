@@ -20,12 +20,24 @@
             border: 1px solid gray;
             padding: 10px;
         }
+        col.cnome{
+            background-color: rgba(123, 228, 123, 0.868);
+        }
+        col.cfilmes{
+            background-color: rgba(61, 61, 157, 0.82);
+        }
     </style>
 </head>
 <body>
     <h1>Exercicio de tabelas</h1>   
 
     <table>
+        <colgroup>
+            <col class="cgrupos">
+            <col class="cnome" span="3"> usado o span=3  para colorir de verde 3 colunas da tabela
+            <col class="cfilmes">
+        </colgroup>
+
         <caption>
             Filmes favoritos
         </caption>
