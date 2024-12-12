@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore harum nisi rerum quisquam molestiae consequatur accusamus veniam! Dicta, nesciunt ipsa natus, incidunt pariatur, quae voluptatem veniam doloremque repudiandae molestiae quasi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dolorum inventore doloremque fugit maiores modi itaque mollitia facilis, officiis incidunt porro sed, ea tenetur excepturi pariatur repudiandae sunt dolores perferendis.</p>
+
+    <!--ABAIXO TEMOS OS LINKS COM  O TARGET (FRAME QUE É O NAME CRIADO NO IFRAME ABAIXO PARA ABRIR OUTRAS PAGINAS CRIADAS AQUI NO IFRAME DA PAGINA PRINCIPAL)-->
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda pagina</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, distinctio voluptatum! Voluptas iusto et atque, assumenda deleniti modi inventore, repudiandae laborum, consequuntur natus corporis provident unde amet fugit repellat nihil! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ex quos, fugit ipsum harum a consectetur ipsa neque saepe doloribus quibusdam maiores, nesciunt quo dignissimos perferendis nam laboriosam nostrum porro?</p>
+
+
+    <!--Criado um NAME PARA USAR AS PAGINAS CRIADAS DENTRO DO IFRAME SEM SAIR DA PAGINA PRINCIPAL PARA ABRIR OUTRASx-->
+    <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima </h1><p> </p>" 
+     <p>Infelizmente seu navegador não é compativel com isso</p>
+    </iframe>
+    <p>Infelizmente seu navegador não é compativel com isso</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quo a aliquid quisquam saepe similique molestiae debitis, illo delectus sapiente labore voluptas repudiandae aspernatur maxime impedit voluptatibus voluptatem nihil autem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi pariatur dolorum necessitatibus accusantium. Dolores recusandae similique assumenda illo totam vel exercitationem earum quidem culpa nulla. Dolore itaque nesciunt odit ex!</p>
+</body>
+</html>
